@@ -80,8 +80,7 @@ export default function LieuDetailPage() {
       <div style={{ marginBottom: 28 }}>
         <div style={{ display: "flex", alignItems: "flex-start", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
           <h1 style={{ fontSize: 30, flex: 1 }}>{lieu.nom}</h1>
-           <h1 style={{ fontSize: 30, flex: 1 }}>{lieu.nom}</h1>
-           {user && (
+          {user && (
             <button onClick={() => setShowSignal(!showSignal)} className="btn btn-ghost btn-sm">
               Signaler ce lieu
               </button>
